@@ -53,7 +53,7 @@ task clean(type: Delete) {
     delete buildDir
 }
 
-task doNothing() {
+task doNothing << {
 }
 
 task doNothing2 << {
