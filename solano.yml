@@ -7,4 +7,9 @@ cache:
     save_paths:
     - .gradle
 tests:
-    - ./gradlew build
+    - type: junit
+      command: ./gradlew build --console=plain
+      report_files:
+          - "core/build/test-results/*.xml"
+          - "fs-base/build/test-results/*.xml"
+          - "ssh/build/test-results/*.xml"
