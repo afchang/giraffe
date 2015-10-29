@@ -10,4 +10,6 @@ tests:
     - type: junit
       command: ./gradlew build --console=plain
       report_files:
-          - "**/build/test-results/*.xml"
+          - "core/build/test-results/*.xml"
+          - "fs-base/build/test-results/*.xml"
+          - "ssh/build/test-results/*.xml"
