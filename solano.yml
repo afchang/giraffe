@@ -8,5 +8,3 @@ cache:
     - .gradle
 tests:
     - ./gradlew build
-test_pattern:
-    - **/build/test-results/*.xml
