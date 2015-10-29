@@ -55,3 +55,6 @@ task clean(type: Delete) {
 
 task doNothing() {
 }
+
+task doNothing2 << {
+}
